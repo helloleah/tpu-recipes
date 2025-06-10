@@ -47,7 +47,7 @@ You'll need both the [Google JetStream GitHub repository](https://github.com/goo
 This step creates an isolated Python virtual environment for the project and installs the necessary packages for both JetStream and MaxText.
 
 1.  **Create and activate a virtual environment:**
-    This ensures that project dependencies don't conflict with your global Python setup. We'll name the environment `venv-maxtext` and assume it's created in your chosen base directory (e.g., `~/code_repos/`).
+    This ensures that project dependencies don't conflict with your global Python setup. This example names the environment `venv-maxtext` and assumes it's created in your chosen base directory (e.g., `~/code_repos/`).
 
     ```bash
     # Navigate to your chosen base directory, e.g., ~/code_repos/
