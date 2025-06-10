@@ -11,7 +11,6 @@ Before you begin, ensure you have the following:
 *   **Git:** The Git version control system installed.
 *   **Python:** Python 3.10 or later, along with `pip` and `venv` for environment management.
 
----
 ## Setup
 
 This section guides you through downloading the necessary repositories, setting up the Python environment, and preparing the Llama 2 model checkpoint.
