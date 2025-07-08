@@ -64,7 +64,7 @@ export TP=8 # number of chips
 # export RATIO=0.8
 # export PREFIX_LEN=0
 
-VLLM_USE_V1=1 vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B --seed 42 --disable-log-requests --gpu-memory-utilization 0.95 --max-num-batched-tokens 8192 --max-num-seqs 128 --tensor-parallel-size $TP --max-model-len $MAX_MODEL_LEN
+VLLM_USE_V1=1 vllm serve deepseek-ai/DeepSeek-R1-Distill-Llama-70B --seed 42 --disable-log-requests --gpu-memory-utilization 0.98 --max-num-batched-tokens 1024 --max-num-seqs 128 --tensor-parallel-size $TP --max-model-len $MAX_MODEL_LEN
 ```
 
 It takes a few minutes depending on the model size to prepare the server - once you see the below snippet in the logs, it means that the server is ready to serve requests or run benchmarks:
